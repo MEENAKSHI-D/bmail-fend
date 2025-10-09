@@ -41,7 +41,7 @@ function App() {
 
     setStatus(true)
 
-    axios.post("https://bmail-bend.onrender.com/sendbmail",{msg:msg , emailList:emailList})
+    axios.post("https://bmail-bend-1.onrender.com/sendbmail",{msg:msg , emailList:emailList})
     .then(function(data)
     {
 
